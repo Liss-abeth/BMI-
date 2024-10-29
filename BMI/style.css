@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #7196cd, #af518b);
+    background-image: url(./image/2290.jpg);
+    background-size: contain;
+    color: #333;
+}
+
+/* Container styling */
+.calculator-container {
+    background: #550c6066;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9);
+    width: 350px;
+    text-align: center;
+}
+
+/* Title styling */
+.calculator-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Input styling */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 15px;
+    color: #000000;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    outline: none;
+}
+
+/* Button styling */
+.calculate-btn {
+    background-color: #1d1032;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.calculate-btn:hover {
+    background-color: #482d5a;
+}
+
+/* Result styling */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Message styling based on BMI */
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
